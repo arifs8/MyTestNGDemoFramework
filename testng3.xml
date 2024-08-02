@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  	<listeners>
+		  <listener class-name="testPackage.Listeners"></listener>
+	  </listeners>
+    
+  <test name="Bank loan" >
+	   
+	<parameter name="loanURL" value="loanAmazonIndia.com"></parameter>
+	<parameter name="APIKey/usernmae" value="123456m"></parameter>
+	
+	
+	  <classes>
+	   <class name="testPackage.class4">
+      
+       </class>
+	  </classes>
+  </test>
+	  
+	 <test name="Bank loan1" >
+	  <classes>
+		    <class name="testPackage.class3">
+      
+       </class>
+	  </classes>
+  </test> 
+	  
+	  
+	  
+	  
+	  
+</suite> <!-- Suite -->
